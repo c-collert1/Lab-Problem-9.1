@@ -1,11 +1,15 @@
 #include <iostream>
 using namespace std;
 
+// fourDigitRandNum -- generates a random four digit number via rand()
+// Paramaters: void
+// result: four digit int value
 
 int fourDigitRandNum();
 
 int main() {
-
+	
+	//intiliazed variables 
 	srand(time(NULL));
 	int fourDigitNumbers[10];
 
