@@ -27,6 +27,15 @@ int main() {
 		cout << fourDigitNumbers[i] << "  ";
 	}
 	cout << endl;
+
+	//Even Four digit numbers
+	cout << "Even four digit Numbers:  ";
+	for (int i = 0; i < 10; i++) {
+		if (fourDigitNumbers[i] % 2 == 0) {
+			cout << fourDigitNumbers[i] << "  ";
+		}
+	}
+	cout << endl;
 }
 
 //code for generation of 10 four digit numbers
