@@ -20,6 +20,13 @@ int main() {
 		cout << fourDigitNumbers[i] << "  ";
 	}
 	cout << endl;
+
+	//Four digit numbers at an even index
+	cout << "Even index four digit Numbers:  ";
+	for (int i = 0; i < 10; i += 2) {
+		cout << fourDigitNumbers[i] << "  ";
+	}
+	cout << endl;
 }
 
 //code for generation of 10 four digit numbers
