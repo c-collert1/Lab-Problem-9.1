@@ -36,6 +36,13 @@ int main() {
 		}
 	}
 	cout << endl;
+
+	//Array displayed in reverse order
+	cout << "Array displayed in reverse order:  ";
+	for (int i = 9; i > -1; i--) {
+			cout << fourDigitNumbers[i] << "  ";
+	}
+	cout << endl;
 }
 
 //code for generation of 10 four digit numbers
