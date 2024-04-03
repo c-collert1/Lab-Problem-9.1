@@ -43,6 +43,10 @@ int main() {
 			cout << fourDigitNumbers[i] << "  ";
 	}
 	cout << endl;
+
+	//Just the first and the last element
+	cout << "First and the last element:  ";
+	cout << fourDigitNumbers[0] << "  " << fourDigitNumbers[9] << endl;
 }
 
 //code for generation of 10 four digit numbers
